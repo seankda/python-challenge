@@ -66,9 +66,3 @@ print(f"""  -------------------------
   Winner: {winner}
   -------------------------
 """)
-
-# Print to txt file
-with open('PyPoll.txt','w',newline='') as txt_file:
-    write2txt = csv.writer(txt_file)
-
-    write2txt.writerow("  Election Results \n")
